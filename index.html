@@ -4,21 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beginner</title>
+    <title>Myteam by erdonogli</title>
     <!-- css -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="container header__container"></div>
+        <div class="container header__container">
+            <nav class="navigation header-nav">
+                <ul class="links">
+                    <li class="link">
+                        <img class="link__logo" src="./images/header/myteam-logo.svg" alt="logo">
+                    </li>
+
+                    <li class="link">
+                        <a href="#home" class="link__url">home</a>
+                    </li>
+
+                    <li class="link">
+                        <a href="#about" class="link__url">about</a>
+                    </li>
+                </ul>
+
+                <ul class="links">
+                    <li class="link">
+                        <a class="link__url link__url--contact" href="#contact">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- MAIN -->
     <main class="main">
         <section class="hero">
-            <div class="container hero__container"></div>
+            <div class="container hero__container">
+                <div class="hero-first">
+                    <h1 class="hero-first__title">Find the best <span id="orange">talent</span></h1>
+                </div>
+
+                <div class="hero-second">
+                    <div class="hero-second__line"></div>
+                    <p class="hero-second__text">Finding the right people and building high performing teams can be
+                        hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change
+                        that</p>
+                </div>
+                <div class="img-left">
+                    <img src="./images/main/hero/Group8.svg" alt="img">
+                </div>
+                <div class="img-bottom">
+                    <div class="bottom-1">
+                        <div class="img-bottom-first"></div>
+                        <div class="img-bottom-second">
+                            <img src="./images/main/hero/CombinedShape.svg" alt="shape" class="img-bottom-second__img">
+                        </div>
+                    </div>
+                    <div class="bottom-2">
+                        <div class="img-bottom-third">
+                            <img src="./images/main/hero/CombinedShapeCopy.svg" alt="shape"
+                                class="img-bottom-third__img">
+                        </div>
+                        <div class="img-bottom-fourth"></div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 

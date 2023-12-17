@@ -1,0 +1,35 @@
+.header__container {
+    background: $color-green-midnight;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+
+    .link__url {
+        text-decoration: none;
+        color: $color-white;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .link__logo {
+        margin-right: 20px;
+    }
+}
+
+.link__url--contact {
+    border: white 2px solid;
+    padding: 10px 30px;
+    border-radius: 24px;
+}

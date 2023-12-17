@@ -1,0 +1,81 @@
+.hero__container {
+    background: $color-green-midnight;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+.hero-first__title {
+    color: $color-white;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    max-width: 600px;
+}
+
+#orange {
+    color: $color-coral;
+}
+
+.hero-second__text {
+    color: $color-white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    max-width: 445px;
+}
+.hero-second {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.hero-second__line {
+    height: 4px;
+    width: 50px;
+    background:$color-blue-rapture;
+}
+.img-left {
+    position: absolute;
+    left: -50px;
+}
+.img-left img {
+    width: 200px;
+    height: 200px;
+}
+.img-bottom-first {
+    width: 200px;
+    height: 200px;
+    background: $color-blue-police;
+    border-radius: 50%;
+}
+.img-bottom-fourth {
+    width: 43px;
+    height: 43px;
+    background: $color-blue-rapture ;
+}
+.bottom-1 {
+    position: relative;
+}
+.img-bottom-second {
+    position: absolute;
+    top: 0;
+}
+.bottom-2 {
+    position: relative;
+}
+.img-bottom-fourth {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.img-bottom {
+    display: flex;
+    position: absolute;
+    right: 165px;
+    bottom: -100px;
+}
