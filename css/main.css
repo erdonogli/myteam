@@ -393,7 +393,7 @@ img {
   justify-content: space-between;
   position: relative;
   overflow: hidden;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .hero-first__title {
@@ -477,4 +477,76 @@ img {
   position: absolute;
   right: 165px;
   bottom: -100px;
+}
+
+.second__container {
+  background: #012f34;
+  display: flex;
+  justify-content: space-between;
+  padding: 125px 165px;
+  position: relative;
+}
+
+.second-info__heading {
+  color: #ffffff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  width: 445px;
+}
+
+.second-rectangle {
+  width: 50px;
+  height: 4px;
+  background: #f67e7e;
+}
+
+.second-first {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.second-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.second-info__title {
+  color: #f67e7e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 155.556% */
+}
+
+.second-info__text {
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  width: 445px;
+}
+
+.second-boxes {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.second-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.back-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */
