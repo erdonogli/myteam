@@ -20,6 +20,10 @@
     color: $color-green-state !important;
     border: 2px solid $color-green-state;
 }
+.link__url--last:hover {
+    background: $color-green-state !important;
+    color: $color-white !important;
+}
 .last-back {
     position: absolute;
     left: 0;

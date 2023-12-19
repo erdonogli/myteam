@@ -19,6 +19,19 @@
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
-    width: 445px;
+    width: px;
     opacity: 0.6;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-last {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.last-img {
+    align-self: flex-end;
 }

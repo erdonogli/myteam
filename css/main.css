@@ -376,6 +376,10 @@ img {
   font-weight: 600;
   line-height: 28px;
 }
+.links .link__url:hover {
+  color: #f67e7e;
+  transition: 0.3s;
+}
 .links .link__logo {
   margin-right: 20px;
 }
@@ -384,6 +388,11 @@ img {
   border: white 2px solid;
   padding: 10px 30px;
   border-radius: 24px;
+}
+
+.link__url--contact:hover {
+  background: #ffffff;
+  color: #002529 !important;
 }
 
 .hero__container {
@@ -662,6 +671,11 @@ img {
   border: 2px solid #012f34;
 }
 
+.link__url--last:hover {
+  background: #012f34 !important;
+  color: #ffffff !important;
+}
+
 .last-back {
   position: absolute;
   left: 0;
@@ -689,6 +703,22 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: 25px;
-  width: 445px;
+  width: px;
   opacity: 0.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-last {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.last-img {
+  align-self: flex-end;
 }/*# sourceMappingURL=main.css.map */

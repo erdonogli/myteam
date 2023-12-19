@@ -22,6 +22,10 @@
         font-weight: 600;
         line-height: 28px;
     }
+    .link__url:hover {
+        color: $color-coral;
+        transition: 0.3s;
+    } 
 
     .link__logo {
         margin-right: 20px;
@@ -32,4 +36,8 @@
     border: white 2px solid;
     padding: 10px 30px;
     border-radius: 24px;
+}
+.link__url--contact:hover {
+    background: $color-white;
+    color: $color-green-dark !important; 
 }
