@@ -549,4 +549,92 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.third__container {
+  background: #004047;
+  padding: 150px 165px;
+  position: relative;
+}
+
+.third-info {
+  color: #ffffff;
+  width: 932px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#blue {
+  color: #79c8c7;
+}
+
+.card-info__title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.card {
+  width: 350px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-user__heading {
+  color: #79c8c7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.card-user__text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.card-user {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.card-ornament {
+  position: absolute;
+  top: -16%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.third-back-a {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.third-back-b {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,84 @@
+.third__container {
+    background: $color-green-jungle;
+    padding: 150px 165px;
+    position: relative;
+}
+
+.third-info {
+    color: $color-white;
+    width: 932px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+#blue {
+    color: $color-blue-rapture;
+}
+
+.card-info__title {
+    color: $color-white;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+
+}
+
+.card {
+    width: 350px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-user__heading {
+    color: $color-blue-rapture;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.card-user__text {
+    color: $color-white;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 10px;
+}
+.card-user {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.card-ornament {
+    position: absolute;
+    top: -16%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.third-back-a {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.third-back-b {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
