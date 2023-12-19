@@ -1,0 +1,27 @@
+.last__container {
+    background: $color-coral;
+    padding: 76px 263px;
+    position: relative;
+}
+
+.links-last {
+    justify-content: space-between;
+}
+
+.link__text {
+    color: $color-green-state;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.link__url--last {
+    color: $color-green-state !important;
+    border: 2px solid $color-green-state;
+}
+.last-back {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

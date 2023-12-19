@@ -637,4 +637,33 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.last__container {
+  background: #f67e7e;
+  padding: 76px 263px;
+  position: relative;
+}
+
+.links-last {
+  justify-content: space-between;
+}
+
+.link__text {
+  color: #012f34;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.link__url--last {
+  color: #012f34 !important;
+  border: 2px solid #012f34;
+}
+
+.last-back {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */
