@@ -1,0 +1,24 @@
+.footer__container {
+    background: $color-green-dark;
+    padding: 48px 165px;
+}
+
+.footer-links {
+    gap: 40px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-info__info {
+    color: $color-white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 445px;
+    opacity: 0.6;
+}

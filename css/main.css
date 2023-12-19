@@ -666,4 +666,29 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.footer__container {
+  background: #002529;
+  padding: 48px 165px;
+}
+
+.footer-links {
+  gap: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-info__info {
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  width: 445px;
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */
