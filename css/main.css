@@ -721,4 +721,20 @@ img {
 
 .last-img {
   align-self: flex-end;
+}
+
+.hero-first__title--about {
+  font-size: 64px;
+}
+
+.hero-second__line--about {
+  background: #f67e7e;
+}
+
+.hero-second__text--about {
+  max-width: 730px !important;
+}
+
+.hero-second-about {
+  gap: 40px;
 }/*# sourceMappingURL=main.css.map */
