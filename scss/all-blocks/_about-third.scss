@@ -1,0 +1,20 @@
+.about-third__container {
+    background: $color-green-state;
+    padding: 140px 165px;
+    position: relative;
+    overflow: hidden;
+}
+.images-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.images-box__img {
+    display: block;
+}
+.about-third-back {
+    position: absolute;
+    left: 0;
+    top: -20%;
+
+}

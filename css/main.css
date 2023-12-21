@@ -737,4 +737,115 @@ img {
 
 .hero-second-about {
   gap: 40px;
+}
+
+.about-hero-back {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.about-second__container {
+  background: #004047;
+  padding: 120px 165px;
+  position: relative;
+}
+
+.about-card {
+  width: 350px;
+  height: 253px;
+  background: #012f34;
+  text-align: center;
+  padding: 32px 24px 56px;
+  position: relative;
+}
+
+.about-second-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 20px;
+}
+
+.about-card__title {
+  color: #79c8c7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.about-card__text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.about-card__text--w60 {
+  width: 254px;
+  margin: 0 auto;
+}
+
+.about-card-img {
+  position: absolute;
+  right: 50%;
+  bottom: -28px;
+  transform: translateX(50%);
+}
+
+.about-cards {
+  gap: 20px;
+  row-gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-card-img--img {
+  padding-top: 200px;
+}
+
+.about-card-link__image {
+  padding-top: 20px;
+}
+
+.about-second-back1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.about-second-back2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.about-third__container {
+  background: #012f34;
+  padding: 140px 165px;
+  position: relative;
+  overflow: hidden;
+}
+
+.images-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images-box__img {
+  display: block;
+}
+
+.about-third-back {
+  position: absolute;
+  left: 0;
+  top: -20%;
 }/*# sourceMappingURL=main.css.map */
