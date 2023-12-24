@@ -1,0 +1,62 @@
+.contact-info__heading {
+    color: $color-white;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    max-width: 600px;
+}
+
+.contact-info__title {
+    color: $color-coral;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 40px;
+}
+
+.contact-card__heading {
+    color: $color-white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.contact-card {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.contact-form .input {
+    width: 540px;
+    color: $color-white;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 166.667% */
+    letter-spacing: -0.115px;
+    border-bottom: solid 1px $color-blue-rapture;
+}
+.contact-form .submit {
+    border: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    background: $color-white;
+    color: $color-green-jungle;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
