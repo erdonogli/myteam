@@ -1,6 +1,6 @@
 .about-third__container {
     background: $color-green-state;
-    padding: 140px 165px;
+    padding: 120px 165px;
     position: relative;
     overflow: hidden;
 }
@@ -16,5 +16,12 @@
     position: absolute;
     left: 0;
     top: -20%;
-
+}
+.images-box__img {
+    width: 165px;
+}
+.images-box__img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    cursor: pointer;
 }
